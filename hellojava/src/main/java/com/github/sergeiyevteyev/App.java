@@ -13,5 +13,9 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+
+        System.out.println(LocalDate.now());
+        System.out.println(LocalDateTime.now());
+        System.out.println(LocalTime.now());
     }
 }
